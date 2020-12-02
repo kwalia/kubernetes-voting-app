@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: weatherapi-pod
-      image: karanwalia/weatherapi
+      image: karanwalia/weatherapi:106
       ports:
         - containerPort: 5432

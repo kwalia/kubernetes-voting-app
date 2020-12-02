@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: weatherapi-pod
+  labels:
+    name: weatherapi-pod
+    app: demo-voting-app
+
+spec:
+  containers:
+    - name: weatherapi-pod
+      image: karanwalia/weatherapi
+      ports:
+        - containerPort: 5432
